@@ -1,2 +1,2 @@
 # InstallerApp
-Android App wich download and install F-Droid and Termux to make an extraction of data from WhatsApp
+Aplicación Android que descarga e instala F-Droid y Termux de forma automatizada  para realizar la extracción de datos de WhatsApp
