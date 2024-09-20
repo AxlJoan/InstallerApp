@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">InstallerApp</string>
+    <string name="download_fdroid_button">Descargar F-Droid</string>
+    <string name="download_termux_button">Descargar Termux</string>
+    <string name="execute_termux_commands_button" tools:ignore="Typos">Ejecutar Comandos en Termux</string>
+</resources>

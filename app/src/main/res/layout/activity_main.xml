@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Botón para descargar F-Droid -->
+    <Button
+        android:id="@+id/downloadFdroidButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/download_fdroid_button" />
+
+    <!-- Botón para descargar Termux (deshabilitado al principio) -->
+    <Button
+        android:id="@+id/downloadTermuxButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/download_termux_button"
+        android:enabled="false" />
+
+    <!-- Botón para ejecutar comandos en Termux (deshabilitado al principio) -->
+    <Button
+        android:id="@+id/executeTermuxCommandsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/execute_termux_commands_button"
+        android:enabled="false" />
+</LinearLayout>
